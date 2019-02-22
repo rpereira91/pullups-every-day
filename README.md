@@ -1,1 +1,1 @@
-pullups-every-day
+This is a simple react page that will display the number of pullups you should do based on strength level. 
