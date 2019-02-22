@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './style/App.css';
 import "./DisplayDay"
 import DisplayDay from './DisplayDay';
+import * as pullups from "../data/pullups.json"
 class App extends Component {
   render() {
     return (
@@ -17,20 +18,20 @@ class App extends Component {
     );
   }
 }
+const day_pullups = pullups.ranges;
+// const day_pullups= [
+//   {
+//       "range":"0-5",
+//       "set":[2,4,3,3,3,5]
+//   },
+//   {
+//       "range":"6-10",
+//       "set":[2,4,3,3,3,5]
+//   },
+//   {
+//       "range":"11-15",
+//       "set":[2,4,3,3,3,5]
+//   },
 
-const day_pullups= [
-  {
-      "range":"0-5",
-      "set":[2,4,3,3,3,5]
-  },
-  {
-      "range":"6-10",
-      "set":[2,4,3,3,3,5]
-  },
-  {
-      "range":"11-15",
-      "set":[2,4,3,3,3,5]
-  },
-
-]
+// ]
 export default App;
