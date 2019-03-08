@@ -59,6 +59,7 @@ class App extends Component {
             )}
       <div>
         <h2>timer: {ms(this.state.time)}</h2>
+        {this.state.time > 600 ? this.stopTimer :"Rest!" }
           {start}
           {resume}
           {stop}

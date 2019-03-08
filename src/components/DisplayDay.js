@@ -22,7 +22,6 @@ export default class DisplayDay extends Component {
           </h3>
           <div className='set-container'>
           {this.state.displaySets ? <DisplaySets set = {this.props.workout.set} /> : "Click to expand"}
-            
           </div>
       </div>
     )

@@ -13,3 +13,7 @@
 h2{
     text-align: center;
 }
+.App{
+    background-color: rgb(163, 163, 163);
+    height: 750px;
+}
